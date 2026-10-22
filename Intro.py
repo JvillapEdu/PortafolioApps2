@@ -31,20 +31,6 @@ with col1:
  url = "https://recepmqttj-gn2cougliwe4cjmyg4kp5g.streamlit.app//"
  st.write(f"[Enlace]({url})")
 
- st.subheader("Caracteres en fotos")
- image = Image.open('OIG2.jpg')
- st.image(image, width=200)
- st.write("Una aplicación básica de reconocimiento de caracteres en fotos.") 
- url = "https://gusunhfubjleh3wzmffwwh.streamlit.app/"
- st.write(f"[Enlace]({url})")
-
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
- st.image(image, width=200)
- st.write("Aquí se encuentra una aplicación donde se usa Teachable Machine.") 
- url = "https://f88d6cyzd5vrbetcdnz4we.streamlit.app/"
- st.write(f"[Enlace]({url})")
-
 with col2: 
  st.subheader("Tablero de dibujo")
  image = Image.open('data_analisis.png')
@@ -53,18 +39,11 @@ with col2:
  url = "https://recondibujo-pz8epec3ekpjbva7knvwae.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
- st.subheader("TF-IDF")
- image = Image.open('txt_to_audio.png')
+ st.subheader("Sensor TQTT")
+ image = Image.open('OIG4.jpg')
  st.image(image, width=190)
- st.write("La siguiente aplicación usa esta medida para evaluar relevancia entre 3 preguntas.") 
- url = "https://tfidfj-mv4mppkzxsnc2bko4ysjfn.streamlit.app/"
- st.write(f"[Enlace]({url})")
-
- st.subheader("Reconocimiento Óptico de Caracteres")
- image = Image.open('OIG3.jpg')
- st.image(image, width=200)
- st.write("El siguiente enlace reconoce caracteres de fotos y procesa a texto.") 
- url = "https://ocr-audioc-3ejf7gktxq2ebkyt5nzwoa.streamlit.app/"
+ st.write("Transmite valores de streamlit a Wokwi TQTT.") 
+ url = "https://sendcmqttjv-mgu8xsydqkuxgosedmzb5g.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
 
@@ -76,18 +55,9 @@ with col3:
  url = "https://drawrecojv-edznqimfwpx3ngauvknclq.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
- st.subheader("Análisis de Sentimientos")
- image = Image.open('OIG4.jpg')
+ st.subheader("Streamlit voz")
+ image = Image.open('audio_to_txt.png')
  st.image(image, width=200)
- st.write("El siguiente enlace asigna valores de subjetividad y polaridad.") 
- url = "https://sentimentab-4nxap93hsdrh57cihepe6q.streamlit.app//"
+ st.write("Trasmite tu voz desde esta app a través de un canal.") 
+ url = "https://ctrlvoicejv-mdsp4ujkmtwmgwcunzq5e8.streamlit.app/"
  st.write(f"[Enlace]({url})")
- 
- st.subheader("WordCloud")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("Se presenta aquí una aplicación para crear Nube de ideas de textos.") 
- url = "https://wordcloudj-mahtq7qurccxdqrbtxdzxd.streamlit.app/"
- st.write(f"[Enlace]({url})")
-
-
