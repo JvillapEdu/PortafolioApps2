@@ -47,7 +47,7 @@ with col1:
 
 with col2: 
  st.subheader("Tablero de dibujo")
- image = Image.open('data_analisis.png)
+ image = Image.open('data_analisis.png')
  st.image(image, width=200)
  st.write("Tablero personalizable para realizar dibujos y trazos.") 
  url = "https://recondibujo-pz8epec3ekpjbva7knvwae.streamlit.app/"
