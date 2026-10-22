@@ -7,8 +7,8 @@ with st.sidebar:
   parrafo = (
     "Streamlit es una pagina que permite construir, compartir y visualizar "
     "aplicaciones creados con script, lo que facilita la creación de las mismas "
-    "y permite el uso de diferentes contenidos, como texto, botones, compatibilidad "
-    "con la cámara del dispositivo, entre muchas otras."
+    "y permite el uso de diferentes contenidos que se observaron en el primer portafolio, "
+    "pero aquí veremos compatibilidad con otros medios y sistemas. "
   )
   st.write(parrafo)
 
