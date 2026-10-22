@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.title("Portafolio I Jeremy Villa Patiño.")
+st.title("Portafolio II Jeremy Villa Patiño.")
 
 with st.sidebar:
   st.subheader("Aplicaciones Streamlit y GitHub.")
@@ -17,18 +17,18 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Primera prueba")
- image = Image.open('txt_to_audio.png')
+ st.subheader("Dígitos escritos")
+ image = Image.open('OIG5.jpg')
  st.image(image, width=190)
- st.write("Este fue el primer ejercicio realizado con streamlit, un recuerdo básico.") 
- url = "https://imm1copia-htexxxgj2tsfnfbu4zg3rj.streamlit.app/#tu-audio"
+ st.write("Aplicación de detección de Dígitos Escritos a mano.") 
+ url = "https://mnistjv-cacvnsxcjgusijvux7nr6v.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('data_analisis.png')
+ st.subheader("Receptor MQTT")
+ image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes. (YOLO)") 
- url = "https://yolov5f-deq5t6yqfud4yeawxpmejj.streamlit.app/"
+ st.write("Conexión de Streamlit a datos ") 
+ url = "https://recepmqttj-gn2cougliwe4cjmyg4kp5g.streamlit.app//"
  st.write(f"[Enlace]({url})")
 
  st.subheader("Caracteres en fotos")
@@ -46,11 +46,11 @@ with col1:
  st.write(f"[Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
+ st.subheader("Tablero de dibujo")
+ image = Image.open('data_analisis.png)
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que traduce audio.") 
- url = "https://traductorc-mr5myu5tkb3vgk4m8qi6ek.streamlit.app/"
+ st.write("Tablero personalizable para realizar dibujos y trazos.") 
+ url = "https://recondibujo-pz8epec3ekpjbva7knvwae.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
  st.subheader("TF-IDF")
@@ -69,11 +69,11 @@ with col2:
 
 
 with col3: 
- st.subheader("Convertor: Texto a Audio")
- image = Image.open('audio_to_txt.png')
+ st.subheader("Modelos de visión")
+ image = Image.open('OIG3.jpg')
  st.image(image, width=190)
- st.write("En el siguiente enlace veremos conversión de texto input a audio") 
- url = "https://imm1copia-htexxxgj2tsfnfbu4zg3rj.streamlit.app/#tu-audio"
+ st.write("Parrafo descriptivo de dibujos en tablero.") 
+ url = "https://drawrecojv-edznqimfwpx3ngauvknclq.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
  st.subheader("Análisis de Sentimientos")
