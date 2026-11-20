@@ -64,4 +64,7 @@ with col3:
  st.image(image, width=200)
  st.write("Trasmite tu voz desde esta app a través de un canal.") 
  url = "https://ctrlvoicejv-mdsp4ujkmtwmgwcunzq5e8.streamlit.app/"
+ url2 = "https://wokwi.com/projects/377229910598956033"
  st.write(f"[Enlace]({url})")
+ st.write(f"[Wokwi]({url2})")  
+  
