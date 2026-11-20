@@ -29,7 +29,9 @@ with col1:
  st.image(image, width=200)
  st.write("Conexión de Streamlit a datos ") 
  url = "https://recepmqttj-gn2cougliwe4cjmyg4kp5g.streamlit.app//"
+ url2 = "https://wokwi.com/projects/390799338156576769"
  st.write(f"[Enlace]({url})")
+ st.write(f"[Wokwi]({url2})") 
 
 with col2: 
  st.subheader("Tablero de dibujo")
