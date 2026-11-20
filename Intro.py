@@ -44,7 +44,9 @@ with col2:
  st.image(image, width=190)
  st.write("Transmite valores de streamlit a Wokwi TQTT.") 
  url = "https://sendcmqttjv-mgu8xsydqkuxgosedmzb5g.streamlit.app/"
+ url2 = "https://wokwi.com/projects/477960164483131393"
  st.write(f"[Enlace]({url})")
+ st.write(f"[Enlace]({url2})")
 
 
 with col3: 
